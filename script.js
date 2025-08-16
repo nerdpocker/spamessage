@@ -40,7 +40,7 @@ function generateRandomNotifications() {
       notification.innerHTML = `
         <div class="notification-header">
           <button class="minimize-btn" onclick="minimizeNotification(this)">–</button>
-          <span>oops ..</span>
+          <span>petir says ..</span>
         </div>
         <p>${randomMessage}</p>
       `;
@@ -66,3 +66,4 @@ document.addEventListener("DOMContentLoaded", function () {
   footer.innerHTML = encodedText; 
   document.body.appendChild(footer); 
 });
+
